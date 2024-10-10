@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 30px;
+    width: 30px;
+}
+
+.nav_list {
+    display: flex;
+    gap: 30px;
+}
+
+.nav_item {
+    list-style: none;
+}
