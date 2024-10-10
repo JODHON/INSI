@@ -29,6 +29,10 @@
     width: 85%;
 }
 
+.navbar :hover {
+    color: #77D353;
+}
+
 /* .left_nav {
     
 } */
