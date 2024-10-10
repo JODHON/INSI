@@ -3,14 +3,21 @@
     padding: 0;
 }
 
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: greenyellow;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
+    width: 85%;
 }
 
 .logo {
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
 }
 
 .nav_list {
@@ -20,4 +27,5 @@
 
 .nav_item {
     list-style: none;
+    font-size: 30px;
 }
