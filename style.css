@@ -8,21 +8,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: white; 
 }
-.fonts {
+
+/* tipo de letra para el titulo (se cambio porque se veia mejor blanco*/ 
+.font_title {
     font-size: 23px;
     font-family: sans-serif;
     font-style: none;
-    color: black;
+    color: white;
 }
-
 
 
 /* Barra superior de navegacion */
 .header {
     background-color: #77D353;
     height: 65px;
+    color: white; 
 }
 
 .navbar {
@@ -30,8 +32,6 @@
     width: 85%;
     
 }
-
-
 
 .navbar .flexeo :hover {
     color: #377b1d;
@@ -109,11 +109,14 @@ section {
     align-items: center;
 }
 
+/* Seccion Productos */
+
 .products {
-    margin: 10px 0 0 0;
-    padding: 0 10px 30px 10px;
+    justify-content: center;
+    padding: 30px;
+    text-align: center;
     display: grid;
-    grid-template-columns: repeat(auto-fit, 200px);
+    grid-template-columns: repeat(auto-fit,200px);
     grid-gap: 20px 40px;
 }
 
